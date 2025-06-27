@@ -1,0 +1,10 @@
+Program received signal SIGSEGV, Segmentation fault.
+0x000055555555651b in read_and_execute_command (shell=0x5555555682a0, here_docs=0x7fffffffd580, first_run=0x7fffffffd57c) at code/01_read_cmd_and_tokens/minishell_loop.c:90
+90              (shell->stdin_tty && shell->buffer_line && *shell->buffer_line))
+(gdb) backtrace
+#0  0x000055555555651b in read_and_execute_command (shell=0x5555555682a0, here_docs=0x7fffffffd580, 
+    first_run=0x7fffffffd57c) at code/01_read_cmd_and_tokens/minishell_loop.c:90
+#1  0x0000555555556589 in minishell_loop (shell=0x5555555682a0)
+    at code/01_read_cmd_and_tokens/minishell_loop.c:121
+#2  0x00005555555556f5 in main (ac=1, av=0x7fffffffd6f8, env=0x7fffffffd708) at code/main.c:128
+(gdb) 

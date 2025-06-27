@@ -1,0 +1,16 @@
+doc/html
+obj
+libft/*.o
+libft/libft.a
+libft/printf/*.o
+minishell
+test/results
+debug.log
+valgrind.log
+test/debug.log
+minishell
+.minishell_history
+b_wildcards
+minishell_tester/
+*.a
+minishell

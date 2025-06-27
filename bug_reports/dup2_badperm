@@ -1,0 +1,8 @@
+ cat <outp | echo hi
+ minishell: outp: Permission denied
+ hi
+ minishell: outp: Permission denied
+ dup2: Bad file descriptor
+ free(): double free detected in tcache 2
+
+SOLVED
