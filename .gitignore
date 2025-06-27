@@ -14,3 +14,6 @@ b_wildcards
 minishell_tester/
 *.a
 minishell
+.vscode
+*.dSYM
+*.swp
